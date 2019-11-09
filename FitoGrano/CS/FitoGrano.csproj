@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A2AF4CDE-293F-46C7-9EA1-DC7738B0D94D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FitoGrano</RootNamespace>
+    <AssemblyName>FitoGrano</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>false</MapFileExtensions>
+    <SupportUrl>http://vk.com/lobin_max</SupportUrl>
+    <ErrorReportUrl>http://vk.com/lobin_max</ErrorReportUrl>
+    <ProductName>FitoGrano</ProductName>
+    <PublisherName>Лобин М.А.</PublisherName>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+<NOWARN>1591,660,661</NOWARN>
+    <CodeAnalysisIgnoreGeneratedCode>false</CodeAnalysisIgnoreGeneratedCode>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <DocumentationFile>FitoGrano.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+<NOWARN>1591,660,661</NOWARN>
+    <CodeAnalysisIgnoreGeneratedCode>false</CodeAnalysisIgnoreGeneratedCode>
+    <DocumentationFile>FitoGrano.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <MyType>WindowsForms</MyType>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>FitoGrano.My.MyApplication</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>FG_logo_1.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'ыыы|AnyCPU'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\ыыы\</OutputPath>
+    <Optimize>true</Optimize>
+<NOWARN>1591,660,661</NOWARN>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisIgnoreGeneratedCode>false</CodeAnalysisIgnoreGeneratedCode>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <DocumentationFile>FitoGrano.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+<NOWARN>1591,660,661</NOWARN>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisIgnoreGeneratedCode>false</CodeAnalysisIgnoreGeneratedCode>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <DocumentationFile>FitoGrano.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <Optimize>true</Optimize>
+<NOWARN>1591,660,661</NOWARN>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisIgnoreGeneratedCode>false</CodeAnalysisIgnoreGeneratedCode>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <DocumentationFile>FitoGrano.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'ыыы|x86'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\ыыы\</OutputPath>
+    <Optimize>true</Optimize>
+<NOWARN>1591,660,661</NOWARN>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisIgnoreGeneratedCode>false</CodeAnalysisIgnoreGeneratedCode>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <DocumentationFile>FitoGrano.xml</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+      <Reference Include="Microsoft.VisualBasic"/>
+      <Reference Include="mscorlib"/>
+      <Reference Include="Microsoft.CSharp"/>
+    <Reference Include="DevExpress.BonusSkins.v17.2, Version=17.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Images.v17.2, Version=17.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Office.v17.2.Core, Version=17.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Pdf.v17.2.Core, Version=17.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.RichEdit.v17.2.Core, Version=17.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v17.2.Export, Version=17.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v17.2.Core, Version=17.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v17.2, Version=17.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v17.2, Version=17.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.Core.v17.2, Version=17.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpo.v17.2, Version=17.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v17.2, Version=17.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v17.2, Version=17.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v17.2, Version=17.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v17.2, Version=17.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v17.2, Version=17.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraRichEdit.v17.2, Version=17.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v17.2, Version=17.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Functions\mdQuery.cs" />
+    <Compile Include="Functions\mdVariables.cs" />
+    <Compile Include="Functions\mdRegistrySetting.cs" />
+    <Compile Include="Classes\clsForSQL.cs" />
+    <Compile Include="Classes\clsGetOrganizationStructure.cs" />
+    <Compile Include="Modules\mdHidenAllColumns.cs" />
+    <Compile Include="Classes\clsMyUserFunction.cs" />
+    <Compile Include="Properties\Application.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MyUserControl\ucTreeListClassificationProducts.Designer.cs">
+      <DependentUpon>ucTreeListClassificationProducts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyUserControl\ucTreeListClassificationProducts.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyUserControl\ucTreeListObjectsQurantine.Designer.cs">
+      <DependentUpon>ucTreeListObjectsQurantine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyUserControl\ucTreeListObjectsQurantine.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyUserControl\ucTreeListResearchMetods.Designer.cs">
+      <DependentUpon>ucTreeListResearchMetods.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyUserControl\ucTreeListResearchMetods.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WinForm\frAddEditContact.Designer.cs">
+      <DependentUpon>frAddEditContact.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForm\frAddEditContact.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForm\frAddEditCountry.Designer.cs">
+      <DependentUpon>frAddEditCountry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForm\frAddEditCountry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForm\frAddEditCountryAgreement.Designer.cs">
+      <DependentUpon>frAddEditCountryAgreement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForm\frAddEditCountryAgreement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForm\frAddEditHistoryRoleJobs.Designer.cs">
+      <DependentUpon>frAddEditHistoryRoleJobs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForm\frAddEditHistoryRoleJobs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForm\frAddEditObjects.Designer.cs">
+      <DependentUpon>frAddEditObjects.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForm\frAddEditObjects.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForm\frAddEditOrganizations.Designer.cs">
+      <DependentUpon>frAddEditOrganizations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForm\frAddEditOrganizations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForm\frAddEditOrganizationsGroup.Designer.cs">
+      <DependentUpon>frAddEditOrganizationsGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForm\frAddEditOrganizationsGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForm\frAddEditOrganizationsRoleJob.Designer.cs">
+      <DependentUpon>frAddEditOrganizationsRoleJob.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForm\frAddEditOrganizationsRoleJob.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForm\frAddEditPerformer.Designer.cs">
+      <DependentUpon>frAddEditPerformer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForm\frAddEditPerformer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForm\frAddEditProducts.Designer.cs">
+      <DependentUpon>frAddEditProducts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForm\frAddEditProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForm\frAddEditQuarantineProducts.Designer.cs">
+      <DependentUpon>frAddEditQuarantineProducts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForm\frAddEditQuarantineProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForm\frAddEditResearchMethod.Designer.cs">
+      <DependentUpon>frAddEditResearchMethod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForm\frAddEditResearchMethod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForm\frBooks_ClassificationProducts.Designer.cs">
+      <DependentUpon>frBooks_ClassificationProducts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForm\frBooks_ClassificationProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForm\frBooks_CountryAgreements.Designer.cs">
+      <DependentUpon>frBooks_CountryAgreements.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForm\frBooks_CountryAgreements.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForm\frBooks_ResearchDirection.Designer.cs">
+      <DependentUpon>frBooks_ResearchDirection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForm\frBooks_ResearchDirection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForm\frBooks_ResearchObjects.Designer.cs">
+      <DependentUpon>frBooks_ResearchObjects.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForm\frBooks_ResearchObjects.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForm\frLogin.Designer.cs">
+      <DependentUpon>frLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForm\frLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForm\frMain.Designer.cs">
+      <DependentUpon>frMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForm\frMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForm\frBooks_OrganizationStructure.Designer.cs">
+      <DependentUpon>frBooks_OrganizationStructure.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForm\frBooks_OrganizationStructure.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForm\frSecurityUsers.Designer.cs">
+      <DependentUpon>frSecurityUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForm\frSecurityUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="MyUserControl\ucTreeListClassificationProducts.resx">
+      <DependentUpon>ucTreeListClassificationProducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyUserControl\ucTreeListObjectsQurantine.resx">
+      <DependentUpon>ucTreeListObjectsQurantine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyUserControl\ucTreeListResearchMetods.resx">
+      <DependentUpon>ucTreeListResearchMetods.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForm\frAddEditContact.resx">
+      <DependentUpon>frAddEditContact.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForm\frAddEditCountry.resx">
+      <DependentUpon>frAddEditCountry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForm\frAddEditCountryAgreement.resx">
+      <DependentUpon>frAddEditCountryAgreement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForm\frAddEditHistoryRoleJobs.resx">
+      <DependentUpon>frAddEditHistoryRoleJobs.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForm\frAddEditObjects.resx">
+      <DependentUpon>frAddEditObjects.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForm\frAddEditOrganizations.resx">
+      <DependentUpon>frAddEditOrganizations.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForm\frAddEditOrganizationsGroup.resx">
+      <DependentUpon>frAddEditOrganizationsGroup.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForm\frAddEditOrganizationsRoleJob.resx">
+      <DependentUpon>frAddEditOrganizationsRoleJob.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForm\frAddEditPerformer.resx">
+      <DependentUpon>frAddEditPerformer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForm\frAddEditProducts.resx">
+      <DependentUpon>frAddEditProducts.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForm\frAddEditQuarantineProducts.resx">
+      <DependentUpon>frAddEditQuarantineProducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForm\frAddEditResearchMethod.resx">
+      <DependentUpon>frAddEditResearchMethod.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForm\frBooks_ClassificationProducts.resx">
+      <DependentUpon>frBooks_ClassificationProducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForm\frBooks_CountryAgreements.resx">
+      <DependentUpon>frBooks_CountryAgreements.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForm\frBooks_ResearchDirection.resx">
+      <DependentUpon>frBooks_ResearchDirection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForm\frBooks_ResearchObjects.resx">
+      <DependentUpon>frBooks_ResearchObjects.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForm\frLogin.resx">
+      <DependentUpon>frLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForm\frMain.resx">
+      <DependentUpon>frMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForm\frBooks_OrganizationStructure.resx">
+      <DependentUpon>frBooks_OrganizationStructure.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForm\frSecurityUsers.resx">
+      <DependentUpon>frSecurityUsers.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="Properties\app.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 и x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>Клиентский профиль .NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Установщик Windows 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="My Resourses\Animations\" />
+    <Folder Include="My Resourses\ReportsFiles\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="FG_logo_1.ico" />
+    <Content Include="My Resourses\Icons\company.ico" />
+    <Content Include="My Resourses\Icons\FGstart_logo_.ico" />
+    <Content Include="My Resourses\Icons\FG_gerbMini.png" />
+    <Content Include="My Resourses\Icons\FG_logo.ico" />
+    <Content Include="My Resourses\Icons\FG_logo_1.ico" />
+    <Content Include="My Resourses\Icons\Performer.ico" />
+    <Content Include="My Resourses\Icons\program_paket.ico" />
+    <Content Include="My Resourses\Icons\SecureUsers.ico" />
+    <Content Include="My Resourses\Images\20104221632351577801.jpg" />
+    <Content Include="My Resourses\Images\24gm4o3.png" />
+    <Content Include="My Resourses\Images\2750417_stock-photo-wheat.jpg" />
+    <Content Include="My Resourses\Images\AddUser.png" />
+    <Content Include="My Resourses\Images\AddUser_16x16.png" />
+    <Content Include="My Resourses\Images\add_.png" />
+    <Content Include="My Resourses\Images\Adress_16x16.png" />
+    <Content Include="My Resourses\Images\Adress_48x48.png" />
+    <None Include="My Resourses\Images\bakterii_16x16.png" />
+    <None Include="My Resourses\Images\agreements_24x24.png" />
+    <Content Include="My Resourses\Images\capofgrane.png" />
+    <None Include="My Resourses\Images\company_16x16.png" />
+    <None Include="My Resourses\Images\current_16x16.png" />
+    <None Include="My Resourses\Images\cleshi_16x16.png" />
+    <None Include="My Resourses\Images\ClassificationProducts_16x16.png" />
+    <Content Include="My Resourses\Images\delete_.png" />
+    <Content Include="My Resourses\Images\delete_16x16.png" />
+    <Content Include="My Resourses\Images\DelUser.png" />
+    <Content Include="My Resourses\Images\DelUser_16x16.png" />
+    <Content Include="My Resourses\Images\del_.png" />
+    <Content Include="My Resourses\Images\diademe.png" />
+    <None Include="My Resourses\Images\directions_16x16.png" />
+    <Content Include="My Resourses\Images\down_20x20.png" />
+    <None Include="My Resourses\Images\earth_16x16.png" />
+    <Content Include="My Resourses\Images\EditUser.png" />
+    <Content Include="My Resourses\Images\EditUser_16x16.png" />
+    <Content Include="My Resourses\Images\edit_.png" />
+    <Content Include="My Resourses\Images\edit_16x16.png" />
+    <Content Include="My Resourses\Images\FGBU.png" />
+    <Content Include="My Resourses\Images\FGBU_0.png" />
+    <Content Include="My Resourses\Images\FG_gerb.png" />
+    <Content Include="My Resourses\Images\FG_logo.gif" />
+    <Content Include="My Resourses\Images\FG_logo.png" />
+    <Content Include="My Resourses\Images\FG_logo_.png" />
+    <Content Include="My Resourses\Images\FG_logo_1.gif" />
+    <Content Include="My Resourses\Images\FG_logo_1.png" />
+    <Content Include="My Resourses\Images\grains-clipart-corn-stalk-bundle-4 %281%29.jpg" />
+    <None Include="My Resourses\Images\group-people_16x16.png" />
+    <None Include="My Resourses\Images\gribi16x16.png" />
+    <Content Include="My Resourses\Images\Info_16x16.png" />
+    <Content Include="My Resourses\Images\IP_16x16.png" />
+    <None Include="My Resourses\Images\nasekomye_16x16.png" />
+    <None Include="My Resourses\Images\molliuski_16x16.png" />
+    <None Include="My Resourses\Images\nematody_16x16.png" />
+    <None Include="My Resourses\Images\karantin_16x16.png" />
+    <None Include="My Resourses\Images\karantin_32x32.png" />
+    <None Include="My Resourses\Images\karantin_24x24.png" />
+    <None Include="My Resourses\Images\microscope_16x16.png" />
+    <Content Include="My Resourses\Images\NovoRussia.jpg" />
+    <Content Include="My Resourses\Images\NovoRussia.png" />
+    <None Include="My Resourses\Images\organization_16x16.png" />
+    <Content Include="My Resourses\Images\performer_.png" />
+    <None Include="My Resourses\Images\performer_16x16.png" />
+    <None Include="My Resourses\Images\PhoneHome_12x12.png" />
+    <None Include="My Resourses\Images\PhoneWork_12x12.png" />
+    <None Include="My Resourses\Images\PhoneOther_12x12.png" />
+    <None Include="My Resourses\Images\PhoneMobile_12x12.png" />
+    <Content Include="My Resourses\Images\plus_.png" />
+    <Content Include="My Resourses\Images\plus_16x16.png" />
+    <None Include="My Resourses\Images\SexMen_16x16.png" />
+    <None Include="My Resourses\Images\SexWomen_16x16.png" />
+    <None Include="My Resourses\Images\sorniaki_16x16.png" />
+    <Content Include="My Resourses\Images\strelka.gif" />
+    <None Include="My Resourses\Images\unknow_16x16.png" />
+    <Content Include="My Resourses\Images\up_20x20_.png" />
+    <None Include="My Resourses\Images\virus_16x16.png" />
+    <Content Include="My Resourses\Images\пшеница-логоса-25180967.jpg" />
+    <None Include="Resources\Contact_16x16.png" />
+    <None Include="Resources\Phone_16x16.png" />
+    <None Include="Resources\clear_16x16.png" />
+    <None Include="My Resourses\DevExpress.Images.lnk" />
+  </ItemGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties Reactor_Deploy="0" Reactor_Enabled="1" />
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+<Import Project="$(MSBuildBinPath)/Microsoft.CSharp.targets" />
+</Project>
