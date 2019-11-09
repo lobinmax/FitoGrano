@@ -1,0 +1,12 @@
+d:\documents and settings\lobin\мои документы\visual studio 2010\Projects\PripyatUpdater\PripyatUpdater\bin\Release\PripyatUpdater.exe.config
+d:\documents and settings\lobin\мои документы\visual studio 2010\Projects\PripyatUpdater\PripyatUpdater\bin\Release\PripyatUpdater.exe
+d:\documents and settings\lobin\мои документы\visual studio 2010\Projects\PripyatUpdater\PripyatUpdater\bin\Release\PripyatUpdater.pdb
+d:\documents and settings\lobin\мои документы\visual studio 2010\Projects\PripyatUpdater\PripyatUpdater\bin\Release\PripyatUpdater.xml
+d:\documents and settings\lobin\мои документы\visual studio 2010\Projects\PripyatUpdater\PripyatUpdater\obj\x86\Release\ResolveAssemblyReference.cache
+d:\documents and settings\lobin\мои документы\visual studio 2010\Projects\PripyatUpdater\PripyatUpdater\obj\x86\Release\PripyatUpdater.frMessager.resources
+d:\documents and settings\lobin\мои документы\visual studio 2010\Projects\PripyatUpdater\PripyatUpdater\obj\x86\Release\PripyatUpdater.Resources.resources
+d:\documents and settings\lobin\мои документы\visual studio 2010\Projects\PripyatUpdater\PripyatUpdater\obj\x86\Release\GenerateResource.read.1.tlog
+d:\documents and settings\lobin\мои документы\visual studio 2010\Projects\PripyatUpdater\PripyatUpdater\obj\x86\Release\GenerateResource.write.1.tlog
+d:\documents and settings\lobin\мои документы\visual studio 2010\Projects\PripyatUpdater\PripyatUpdater\obj\x86\Release\PripyatUpdater.exe
+d:\documents and settings\lobin\мои документы\visual studio 2010\Projects\PripyatUpdater\PripyatUpdater\obj\x86\Release\PripyatUpdater.xml
+d:\documents and settings\lobin\мои документы\visual studio 2010\Projects\PripyatUpdater\PripyatUpdater\obj\x86\Release\PripyatUpdater.pdb

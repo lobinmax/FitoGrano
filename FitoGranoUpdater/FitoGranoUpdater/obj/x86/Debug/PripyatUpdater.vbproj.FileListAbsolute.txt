@@ -1,0 +1,56 @@
+C:\Users\lobin\AppData\Local\Temporary Projects\PripyatUpdater\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\lobin\AppData\Local\Temporary Projects\PripyatUpdater\obj\x86\Debug\PripyatUpdater.frMessager.resources
+C:\Users\lobin\AppData\Local\Temporary Projects\PripyatUpdater\obj\x86\Debug\PripyatUpdater.Resources.resources
+C:\Users\lobin\AppData\Local\Temporary Projects\PripyatUpdater\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\lobin\AppData\Local\Temporary Projects\PripyatUpdater\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+d:\documents and settings\lobin\мои документы\visual studio 2010\Projects\PripyatUpdater\PripyatUpdater\bin\Debug\PripyatUpdater.exe.config
+d:\documents and settings\lobin\мои документы\visual studio 2010\Projects\PripyatUpdater\PripyatUpdater\bin\Debug\PripyatUpdater.exe
+d:\documents and settings\lobin\мои документы\visual studio 2010\Projects\PripyatUpdater\PripyatUpdater\bin\Debug\PripyatUpdater.pdb
+d:\documents and settings\lobin\мои документы\visual studio 2010\Projects\PripyatUpdater\PripyatUpdater\bin\Debug\PripyatUpdater.xml
+d:\documents and settings\lobin\мои документы\visual studio 2010\Projects\PripyatUpdater\PripyatUpdater\obj\x86\Debug\ResolveAssemblyReference.cache
+d:\documents and settings\lobin\мои документы\visual studio 2010\Projects\PripyatUpdater\PripyatUpdater\obj\x86\Debug\PripyatUpdater.frMessager.resources
+d:\documents and settings\lobin\мои документы\visual studio 2010\Projects\PripyatUpdater\PripyatUpdater\obj\x86\Debug\PripyatUpdater.Resources.resources
+d:\documents and settings\lobin\мои документы\visual studio 2010\Projects\PripyatUpdater\PripyatUpdater\obj\x86\Debug\PripyatUpdater.exe
+d:\documents and settings\lobin\мои документы\visual studio 2010\Projects\PripyatUpdater\PripyatUpdater\obj\x86\Debug\PripyatUpdater.xml
+d:\documents and settings\lobin\мои документы\visual studio 2010\Projects\PripyatUpdater\PripyatUpdater\obj\x86\Debug\PripyatUpdater.pdb
+d:\documents and settings\lobin\мои документы\visual studio 2010\Projects\PripyatUpdater\PripyatUpdater\obj\x86\Debug\GenerateResource.read.1.tlog
+d:\documents and settings\lobin\мои документы\visual studio 2010\Projects\PripyatUpdater\PripyatUpdater\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\lobin\Documents\Visual Studio 2010\Projects\PripyatUpdater\PripyatUpdater\bin\Debug\PripyatUpdater.exe.config
+C:\Users\lobin\Documents\Visual Studio 2010\Projects\PripyatUpdater\PripyatUpdater\obj\x86\Debug\PripyatUpdater.exe
+C:\Users\lobin\Documents\Visual Studio 2010\Projects\PripyatUpdater\PripyatUpdater\obj\x86\Debug\PripyatUpdater.xml
+C:\Users\lobin\Documents\Visual Studio 2010\Projects\PripyatUpdater\PripyatUpdater\obj\x86\Debug\PripyatUpdater.pdb
+C:\Users\lobin\Documents\Visual Studio 2010\Projects\PripyatUpdater\PripyatUpdater\bin\Debug\PripyatUpdater.exe
+C:\Users\lobin\Documents\Visual Studio 2010\Projects\PripyatUpdater\PripyatUpdater\bin\Debug\PripyatUpdater.pdb
+C:\Users\lobin\Documents\Visual Studio 2010\Projects\PripyatUpdater\PripyatUpdater\bin\Debug\PripyatUpdater.xml
+C:\Users\lobin\Documents\Visual Studio 2010\Projects\PripyatUpdater\PripyatUpdater\obj\x86\Debug\PripyatUpdater.frMessager.resources
+C:\Users\lobin\Documents\Visual Studio 2010\Projects\PripyatUpdater\PripyatUpdater\obj\x86\Debug\PripyatUpdater.Resources.resources
+C:\Users\lobin\Documents\Visual Studio 2010\Projects\PripyatUpdater\PripyatUpdater\obj\x86\Debug\PripyatUpdater.vbproj.GenerateResource.Cache
+C:\Users\lobin\Documents\Visual Studio 2010\Projects\PripyatUpdater\PripyatUpdater\obj\x86\Debug\PripyatUpdater.frMain.resources
+C:\Users\lobin\Documents\Visual Studio 2010\Projects\PripyatUpdater\PripyatUpdater\bin\Debug\DevExpress.BonusSkins.v17.1.dll
+C:\Users\lobin\Documents\Visual Studio 2010\Projects\PripyatUpdater\PripyatUpdater\bin\Debug\DevExpress.Data.v17.1.dll
+C:\Users\lobin\Documents\Visual Studio 2010\Projects\PripyatUpdater\PripyatUpdater\bin\Debug\DevExpress.Utils.v17.1.dll
+C:\Users\lobin\Documents\Visual Studio 2010\Projects\PripyatUpdater\PripyatUpdater\bin\Debug\DevExpress.XtraBars.v17.1.dll
+C:\Users\lobin\Documents\Visual Studio 2010\Projects\PripyatUpdater\PripyatUpdater\bin\Debug\DevExpress.XtraEditors.v17.1.dll
+C:\Users\lobin\Documents\Visual Studio 2010\Projects\PripyatUpdater\PripyatUpdater\bin\Debug\System.dll
+C:\Users\lobin\Documents\Visual Studio 2010\Projects\PripyatUpdater\PripyatUpdater\bin\Debug\System.Drawing.dll
+C:\Users\lobin\Documents\Visual Studio 2010\Projects\PripyatUpdater\PripyatUpdater\bin\Debug\System.Windows.Forms.dll
+C:\Users\lobin\Documents\Visual Studio 2010\Projects\PripyatUpdater\PripyatUpdater\bin\Debug\DevExpress.Data.v17.1.xml
+C:\Users\lobin\Documents\Visual Studio 2010\Projects\PripyatUpdater\PripyatUpdater\bin\Debug\DevExpress.Utils.v17.1.xml
+C:\Users\lobin\Documents\Visual Studio 2010\Projects\PripyatUpdater\PripyatUpdater\bin\Debug\DevExpress.XtraBars.v17.1.xml
+C:\Users\lobin\Documents\Visual Studio 2010\Projects\PripyatUpdater\PripyatUpdater\bin\Debug\DevExpress.XtraEditors.v17.1.xml
+C:\Users\lobin\Documents\Visual Studio 2010\Projects\PripyatUpdater\PripyatUpdater\bin\Debug\de\DevExpress.Data.v17.1.resources.dll
+C:\Users\lobin\Documents\Visual Studio 2010\Projects\PripyatUpdater\PripyatUpdater\bin\Debug\es\DevExpress.Data.v17.1.resources.dll
+C:\Users\lobin\Documents\Visual Studio 2010\Projects\PripyatUpdater\PripyatUpdater\bin\Debug\ja\DevExpress.Data.v17.1.resources.dll
+C:\Users\lobin\Documents\Visual Studio 2010\Projects\PripyatUpdater\PripyatUpdater\bin\Debug\ru\DevExpress.Data.v17.1.resources.dll
+C:\Users\lobin\Documents\Visual Studio 2010\Projects\PripyatUpdater\PripyatUpdater\bin\Debug\de\DevExpress.Utils.v17.1.resources.dll
+C:\Users\lobin\Documents\Visual Studio 2010\Projects\PripyatUpdater\PripyatUpdater\bin\Debug\es\DevExpress.Utils.v17.1.resources.dll
+C:\Users\lobin\Documents\Visual Studio 2010\Projects\PripyatUpdater\PripyatUpdater\bin\Debug\ja\DevExpress.Utils.v17.1.resources.dll
+C:\Users\lobin\Documents\Visual Studio 2010\Projects\PripyatUpdater\PripyatUpdater\bin\Debug\ru\DevExpress.Utils.v17.1.resources.dll
+C:\Users\lobin\Documents\Visual Studio 2010\Projects\PripyatUpdater\PripyatUpdater\bin\Debug\de\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\lobin\Documents\Visual Studio 2010\Projects\PripyatUpdater\PripyatUpdater\bin\Debug\es\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\lobin\Documents\Visual Studio 2010\Projects\PripyatUpdater\PripyatUpdater\bin\Debug\ja\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\lobin\Documents\Visual Studio 2010\Projects\PripyatUpdater\PripyatUpdater\bin\Debug\ru\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\lobin\Documents\Visual Studio 2010\Projects\PripyatUpdater\PripyatUpdater\bin\Debug\de\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\lobin\Documents\Visual Studio 2010\Projects\PripyatUpdater\PripyatUpdater\bin\Debug\es\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\lobin\Documents\Visual Studio 2010\Projects\PripyatUpdater\PripyatUpdater\bin\Debug\ja\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\lobin\Documents\Visual Studio 2010\Projects\PripyatUpdater\PripyatUpdater\bin\Debug\ru\DevExpress.XtraEditors.v17.1.resources.dll
